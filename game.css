@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.new-game{
+    display: inline-block;
+    background-color: #93C2DB;
+    padding: 10px;
+    width: max-content;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 680px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.new-game:hover{
+    background-color: #072540;
+    color: #FFFFFF;
+}
+.new-game .new-game-p{
+    font-size: 42px;
+    width: max-content;
+    text-align: center;
+    font-weight: 100;
+}
+.new-game .new-game-image{
+    margin-right: 5px;
+}
+
+
+.container-1{
+    float: left;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: #EEF0F1;
+    width: 400px;
+    height: 500px;
+}
+.container-1 .player-1-header{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 50px;
+}
+.container-1 .player-1-score{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+}
+.container-1 .player-1-current{
+    background-color: #F9FAFA;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+    margin-top: 70px;
+}
+.container-1 .player-1-current-score{
+    display: block;
+    font-size: 80px;
+}
+
+.container-2{
+    float: left;
+    margin-top: 100px;
+    background-color: #D2D6DB;
+    width: 400px;
+    height: 500px;
+}
+.container-2 .player-2-header{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 50px;
+}
+.container-2 .player-2-score{
+    font-size: 80px;
+    margin-top: 20px;
+    text-align: center;
+}
+.container-2 .player-2-current{
+    background-color: #F9FAFA;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+    margin-top: 70px;
+}
+.container-2 .player-2-current-score{
+    display: block;
+    font-size: 80px;
+}
